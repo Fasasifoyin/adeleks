@@ -1,0 +1,37 @@
+@import "./base";
+@import "./typo";
+@import "./color";
+
+.app {
+  background-color: #141c3a;
+}
+
+.app2 {
+  background-color: #ffffff;
+}
+
+.cc-container {
+  width: 100% !important;
+  max-width: 1500px !important;
+  margin: 0 auto;
+}
+
+.page-alignment {
+  padding: 0 1.25rem;
+
+  @media (min-width: 480px) {
+    padding: 0 2.1875rem;
+  }
+
+  @media (min-width: 768px) {
+    padding: 0 3.125rem;
+  }
+
+  @media (min-width: 992px) {
+    padding: 0 4.6875rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 0 6.25rem !important;
+  }
+}
